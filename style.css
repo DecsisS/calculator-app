@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(232, 255, 255);
+}
+
+.calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 280px;
+    gap: 5px;
+    border-radius: 5px;
+    background: #eeeeff;
+}
+
+.screen-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 250px;
+    height: 40px;
+    background: #faeffd;
+    border-radius: 5px;
+    border: solid 3px #e4d0ff;
+    padding: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 5px;
+}
+
+.buttons-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+}
+
+.number-button,
+.plus-button,
+.minus-button,
+.x-button,
+.division-button,
+.null-button {
+    width: 67px;
+    height: 67px;
+}
+
+.number-button,
+.plus-button,
+.minus-button,
+.x-button,
+.division-button,
+.null-button,
+.enter-button,
+.result-button,
+.clear-button {
+    font-size: 25px;
+}
+
+.number-button,
+.plus-button,
+.minus-button,
+.x-button,
+.division-button,
+.null-button,
+.enter-button,
+.result-button,
+.clear-button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.enter-button {
+    width: 120px;
+    height: 60px;
+    align-self: flex-end;
+    background: purple;
+    color: white;
+}
+
+.plus-button,
+.minus-button,
+.x-button,
+.division-button {
+    background: rgb(251, 220, 231);
+    color: white;
+}
+
+.buttons-maths {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.number-button,
+.null-button {
+    background: rgb(219, 219, 219);
+    color: white;
+}
+
+.result-button {
+    background: #e6beff;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.clear-button {
+    width: 200px;
+    background: #fffedb;
+    color: rgb(226, 226, 226);
+    height: 30px;
+}
+
+.screen-value {
+    margin: 0;
+    font-size: 35px;
+    padding-right: 5px;
+}
