@@ -4,4 +4,6 @@ You need to calculate something? Use our application [here](https://decsiss.gith
 
 ## Powered by JavaSript
 
+Less HTML, more JS!
+
 Stack of this project: JavaScript, HTML, CSS
